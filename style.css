@@ -5,6 +5,11 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Outfit";
+  /* width: 1440px; */
+    width: 100vw;
+    /* 100% of the viewport width */
+    height: 100vh;
+    /* 100% of the viewport height */
 }
 
 #qr_code {
@@ -25,7 +30,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 20%;
   padding: 10px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -35,12 +40,13 @@ img {
   font: bold;
   font-size: 15px;
   padding: 15px;
+  font-weight: 700;
 }
 
 #paragraph2 {
   font: bold;
   font-size: 15px;
   color: rgb(188, 191, 193);
-  font-family: monospace;
   padding: 15px;
+  font-weight: 400;
 }
